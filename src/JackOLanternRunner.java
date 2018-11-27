@@ -1,9 +1,11 @@
 public class JackOLanternRunner {
     public static void main(String[] args){
         String[][] face = new String[5][8];
-        JackOLantern face1 = new Jack0Lantern(face);
+        JackOLantern face1 = new JackOLantern(face);
 
-        face1.edit
+        face1.fill("X");
+        face1.edit(" ",0,0,);
+        face1.edit(" "),
     }
 
 }
